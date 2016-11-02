@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 - `4.0.0` Betas - [4.0.0-beta.1](#400-beta1) | [4.0.0-beta.2](#400-beta2)
 
 #### 3.x Releases
-- `3.5.x` Releases - [3.5.0](#350)
+- `3.5.x` Releases - [3.5.0](#350) | [3.5.1](#351)
 - `3.4.x` Releases - [3.4.0](#340) | [3.4.1](#341) | [3.4.2](#342)
 - `3.3.x` Releases - [3.3.0](#330) | [3.3.1](#331)
 - `3.2.x` Releases - [3.2.0](#320) | [3.2.1](#321)
@@ -319,6 +319,19 @@ This release requires Xcode 8.0 beta 6+ because it has been completely refactore
 This release is the start of the Alamofire 4.0.0 beta releases. We still have quite a few large changes we're trying to squeeze in before the Xcode 8 GM drops, so the APIs will continue to change over the next few weeks. Please keep in mind that each beta will likely bring new APIs and also refactor others. The betas **WILL NOT** follow semantic versioning. We'll most likely conform to semantic versioning once we start releasing the RCs unless we run into a major unforeseen issue.
 
 We'd really appreciate everyone trying out the betas and letting us know if you find issues. We want to address every possible issue prior to the official Alamofire 4.0.0 release.
+
+---
+
+## [3.5.1](https://github.com/Alamofire/Alamofire/releases/tag/3.5.1)
+Released on 2016-10-01. All issues associated with this milestone can be found using this
+[filter](https://github.com/Alamofire/Alamofire/issues?utf8=✓&q=milestone%3A3.5.1).
+
+#### Fixed
+- Assorted memory leaks caused by underlying Swift runtime bugs.
+  - Fixed by [Jon Shier](https://github.com/jshier) in regards to Issue
+  [#1626](https://github.com/Alamofire/Alamofire/issues/1626).
+- Issue in the test suite logic on macOS 10.12.
+  - Fixed by [Jon Shier](https://github.com/jshier).
 
 ## [3.5.0](https://github.com/Alamofire/Alamofire/releases/tag/3.5.0)
 Released on 2016-09-07. All issues associated with this milestone can be found using this
